@@ -20,6 +20,12 @@ body{
   margin: 10px 20px;
   text-align: left;
   color: white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.film:hover{
+  border: 5px solid blue;
+
 }
 .info{
   padding-top: 1.2rem;
@@ -37,4 +43,10 @@ body{
   fill: rgb(255, 232, 31);
   width: 100%;
   max-width: 45rem;
+}
+@media (max-width: 960px) {
+  .filmBody{
+    display: flex;
+    flex-direction: column;
+  }
 }
