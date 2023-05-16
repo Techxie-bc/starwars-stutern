@@ -35,14 +35,32 @@ body{
     margin-top: 1rem;
     color: rgb(255, 232, 31);
 }
-
-
-
-
 .logo {
   fill: rgb(255, 232, 31);
   width: 100%;
   max-width: 45rem;
+}
+.moreBody{
+  background-color: rgba(255,255,255,0.1);
+  padding : 2rem;
+  color: white;
+}
+.moreBody h4{
+  font-size: 20px
+}
+.moreBody p{
+  font-size: 18px
+}
+.moreBody div{
+  text-align: left;
+  
+}
+.moreBody div ul{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.moreBody .title{
+  text-align: center;
 }
 @media (max-width: 960px) {
   .filmBody{
